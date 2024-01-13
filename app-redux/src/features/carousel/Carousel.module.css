@@ -1,0 +1,23 @@
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: #3498db;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #21618c;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #3498db;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #21618c;
+}

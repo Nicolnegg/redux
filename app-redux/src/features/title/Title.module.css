@@ -1,0 +1,21 @@
+.titleContainer {
+    text-align: center;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .descriptiontitle {
+    max-width: 600px;
+    margin: 0 auto;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .waveContainer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: "white";
+    height: 5rem;
+  }

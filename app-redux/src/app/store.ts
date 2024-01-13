@@ -1,12 +1,16 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit"
-import counterReducer from "../features/counter/counterSlice"
 import headerReducer from "../features/header/headerSlice"
+import footerReducer from '../features/footer/footerSlice'; 
+import titleReducer from '../features/title/titleSlice';
+import carouselReducer from '../features/carousel/carouselSlice';
 
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    carousel: carouselReducer,
     header: headerReducer,
+    footer: footerReducer, 
+    title: titleReducer,
   },
 })
 
